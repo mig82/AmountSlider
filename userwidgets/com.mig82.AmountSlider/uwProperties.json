@@ -1,0 +1,209 @@
+{
+    "classname": "AmountSlider",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "f8a9e714fa4d405baba919714da2d20a",
+                    "paramList": [],
+                    "propertyKey": "preShow",
+                    "pw": {
+                        "displayName": "preShow",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f1036ca4d4f040129095586097d65c19",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Settings",
+                "Look & Feel"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "Settings",
+                    "kuid": "jd10e4579c384369bfa05ad565a951a1",
+                    "originalPropertyKey": "max",
+                    "propertyIndex": 1,
+                    "propertyKey": "max",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "max",
+                        "srcWidget": "slider",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "(^[1-9][0-9]*$)|(^0$)",
+                        "wType": "Slider"
+                    },
+                    "srcWgtKUID": "a67a19dd958d484baeadcc2176f032fb"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Settings",
+                    "kuid": "e0af2c05e23e4154b5337c698b5d5e2e",
+                    "originalPropertyKey": "step",
+                    "propertyIndex": 2,
+                    "propertyKey": "step",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "step",
+                        "srcWidget": "slider",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "(^[1-9][0-9]*$)|(^0$)",
+                        "wType": "Slider"
+                    },
+                    "srcWgtKUID": "a67a19dd958d484baeadcc2176f032fb"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "cd7d33dd839342beabab52f13123c9c5",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "sliderSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Slider Skin",
+                        "srcWidget": "slider",
+                        "wType": "Slider"
+                    },
+                    "srcWgtKUID": "a67a19dd958d484baeadcc2176f032fb"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Settings",
+                    "kuid": "af0862f97e18476ea38c2122b3d180ef",
+                    "originalPropertyKey": "min",
+                    "propertyIndex": 3,
+                    "propertyKey": "min",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "min",
+                        "srcWidget": "slider",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "(^[1-9][0-9]*$)|(^0$)",
+                        "wType": "Slider"
+                    },
+                    "srcWgtKUID": "a67a19dd958d484baeadcc2176f032fb"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "d8dbf6a0f4834474addb3bdfced893a0",
+                    "originalPropertyKey": "thickness",
+                    "propertyIndex": 3,
+                    "propertyKey": "thickness",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "thickness",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "kiosk",
+                                "desktopweb"
+                            ],
+                            "mobile": [
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "srcWidget": "slider",
+                        "type": "integer",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Forked-Text",
+                                "dataUpdaterId": "Forked-Text",
+                                "popupId": "Forked-Text",
+                                "type": "ForkPopupBtn"
+                            },
+                            "Label": {},
+                            "Radiobuttongroup": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Button",
+                        "wType": "Slider"
+                    },
+                    "srcWgtKUID": "a67a19dd958d484baeadcc2176f032fb"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Settings",
+                    "kuid": "c836401cf45f4451a308466ffed14c8e",
+                    "originalPropertyKey": "selectedValue",
+                    "propertyIndex": 4,
+                    "propertyKey": "selectedValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Selected Value",
+                        "srcWidget": "slider",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "(^[1-9][0-9]*$)|(^0$)",
+                        "wType": "Slider"
+                    },
+                    "srcWgtKUID": "a67a19dd958d484baeadcc2176f032fb"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Settings",
+                    "kuid": "fde503468eba4b469a51f8371cb91728",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "currency",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Currency Code ISO 4217",
+                        "srcWidget": "currencyLabel",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ee67b475babb4e55a1873d7aa35d1902"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.mig82",
+    "version": "1.0.0"
+}
